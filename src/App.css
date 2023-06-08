@@ -1,0 +1,60 @@
+.nav{
+  /* display: flex; */
+  /* justify-content: space-around; */
+  text-align: center;
+  height: 80px;
+  width: 100%;
+  /* background-color: aqua; */
+
+ 
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  
+}
+li{
+  display: flex;
+ 
+}
+.link{
+  /* justify-content: space-between; */
+  text-decoration: none;
+  color: tomato;
+  font-size: 40px;
+  font-weight: bolder;
+  /* margin: 100px; */
+
+}
+.link:hover {
+  color: blueviolet;
+
+}
+body{
+  /* background-color: rgb(159, 254, 254); */
+  background: linear-gradient(to right,aqua,white);
+}
+table{
+  width: 100%;
+  border: 1px solid;
+}
+.btn{
+  height: 50px;
+  width: 300px;
+  border: 2px solid red;
+  font-size: 20px;
+  border-radius: 20px;
+
+}
+.stdnav{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  
+}
+.home{
+  margin: 100px;
+}
+.contact{
+  margin: 100px;
+}
